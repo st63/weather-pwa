@@ -19,6 +19,18 @@
       "purpose": "any maskable"
     }
   ],
+  "screenshots" : [
+    {
+      "src": "screenshot1.webp",
+      "sizes": "1300x900",
+      "type": "image/webp"
+    },
+    {
+      "src": "screenshot2.webp",
+      "sizes": "520x890",
+      "type": "image/webp"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

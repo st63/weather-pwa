@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/weather-pwa/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/weather-pwa/static/js/main.b163659c.chunk.js",
-    "main.js.map": "/weather-pwa/static/js/main.b163659c.chunk.js.map",
-    "runtime-main.js": "/weather-pwa/static/js/runtime-main.a25b88ed.js",
-    "runtime-main.js.map": "/weather-pwa/static/js/runtime-main.a25b88ed.js.map",
-    "static/js/2.d0eb047a.chunk.js": "/weather-pwa/static/js/2.d0eb047a.chunk.js",
-    "static/js/2.d0eb047a.chunk.js.map": "/weather-pwa/static/js/2.d0eb047a.chunk.js.map",
-    "static/js/3.eb2c8977.chunk.js": "/weather-pwa/static/js/3.eb2c8977.chunk.js",
-    "static/js/3.eb2c8977.chunk.js.map": "/weather-pwa/static/js/3.eb2c8977.chunk.js.map",
+    "main.js": "/weather-pwa/static/js/main.2d8a337b.chunk.js",
+    "main.js.map": "/weather-pwa/static/js/main.2d8a337b.chunk.js.map",
+    "runtime-main.js": "/weather-pwa/static/js/runtime-main.36501615.js",
+    "runtime-main.js.map": "/weather-pwa/static/js/runtime-main.36501615.js.map",
+    "static/js/2.4d00c86f.chunk.js": "/weather-pwa/static/js/2.4d00c86f.chunk.js",
+    "static/js/2.4d00c86f.chunk.js.map": "/weather-pwa/static/js/2.4d00c86f.chunk.js.map",
+    "static/js/3.8ae7ed26.chunk.js": "/weather-pwa/static/js/3.8ae7ed26.chunk.js",
+    "static/js/3.8ae7ed26.chunk.js.map": "/weather-pwa/static/js/3.8ae7ed26.chunk.js.map",
     "index.html": "/weather-pwa/index.html",
     "service-worker.js": "/weather-pwa/service-worker.js",
     "service-worker.js.map": "/weather-pwa/service-worker.js.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/weather-pwa/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d0eb047a.chunk.js.LICENSE.txt": "/weather-pwa/static/js/2.d0eb047a.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/weather-pwa/static/media/logo.103b5fa1.svg"
+    "static/js/2.4d00c86f.chunk.js.LICENSE.txt": "/weather-pwa/static/js/2.4d00c86f.chunk.js.LICENSE.txt",
+    "static/media/background-bottom.6be33a07.png": "/weather-pwa/static/media/background-bottom.6be33a07.png",
+    "static/media/background-top.1b9e0722.png": "/weather-pwa/static/media/background-top.1b9e0722.png",
+    "static/media/placeholder-icon.1a743710.svg": "/weather-pwa/static/media/placeholder-icon.1a743710.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a25b88ed.js",
-    "static/js/2.d0eb047a.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.b163659c.chunk.js"
+    "static/js/runtime-main.36501615.js",
+    "static/js/2.4d00c86f.chunk.js",
+    "static/js/main.2d8a337b.chunk.js"
   ]
 }

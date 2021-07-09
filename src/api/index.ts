@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { type } from 'os'
 import { APP_ID } from '../config'
 import { formatDateDailyWeather } from '../utils'
 

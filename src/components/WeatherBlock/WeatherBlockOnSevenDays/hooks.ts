@@ -10,7 +10,15 @@ export const useWeatherList = () => {
   const { city, selectCity } = useWeatherFields()
 
   useEffect(() => {
-    if (city) {
+    if (city === 'Current geo') {
+      if ('geolocation' in navigator) {
+        navigator.geolocation.getCurrentPosition(function (location) {
+          getWeather(`lat=${location.coords.latitude.toFixed(2)}&lon=${location.coords.longitude.toFixed(2)}`).then(saveWeathers)
+        });
+      }
+    }
+
+    if (city && city !== 'Current geo') {
       getWeather(city).then(saveWeathers)
     }
   }, [city])

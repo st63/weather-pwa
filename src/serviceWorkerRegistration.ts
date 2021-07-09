@@ -72,6 +72,9 @@ function registerValidSW(swUrl: string, config?: Config) {
               // At this point, the updated precached content has been fetched,
               // but the previous service worker will still serve the older
               // content until all client tabs are closed.
+
+              navigator.serviceWorker.controller.postMessage({ type: 'SKIP_WAITING'});
+
               console.log(
                 'New content is available and will be used when all ' +
                   'tabs for this page are closed. See https://cra.link/PWA.'
@@ -114,6 +117,7 @@ function checkValidServiceWorker(swUrl: string, config?: Config) {
         (contentType != null && contentType.indexOf('javascript') === -1)
       ) {
         // No service worker found. Probably a different app. Reload the page.
+        console.log('No service worker found. Probably a different app. Reload the page.')
         navigator.serviceWorker.ready.then((registration) => {
           registration.unregister().then(() => {
             window.location.reload();
@@ -121,6 +125,7 @@ function checkValidServiceWorker(swUrl: string, config?: Config) {
         });
       } else {
         // Service worker found. Proceed as normal.
+        console.log('Service worker found. Proceed as normal.')
         registerValidSW(swUrl, config);
       }
     })

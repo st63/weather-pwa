@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Weather PWA",
+  "name": "Weather PWA",
   "icons": [
     {
       "src": "favicon.ico",
@@ -17,6 +17,18 @@
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "screenshot1.webp",
+      "sizes": "1300x900",
+      "type": "image/webp"
+    },
+    {
+      "src": "screenshot2.webp",
+      "sizes": "520x890",
+      "type": "image/webp"
     }
   ],
   "start_url": ".",

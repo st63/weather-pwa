@@ -9,5 +9,6 @@ export const CitySelect: React.FC<ICitySelect> = ({ city, selectCity }) => (
   <Select value={city} onChange={selectCity} placeholder="Select city" isCitySelected={!!city}>
     <Option selected={!city} disabled>Select city</Option>
     {CITIES.map(renderCity)}
+    <Option value={'Current geo'}>Current geo</Option>
   </Select>
 )

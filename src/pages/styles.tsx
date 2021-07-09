@@ -40,3 +40,15 @@ export const PageFooter = styled.footer`
     margin-top: 12px;
   }
 `
+
+export const IconNoConnectInform = styled.img`
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 70px;
+
+  @media ${'(max-width: 450px)'} {
+    top: 10px;
+    width: 40px;
+  }
+`
